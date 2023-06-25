@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "TimoChat-Midjourney",
-  description: "Your personal TimoChat+Midjourney Chat Bot.",
+  title: "ChatGPT-Midjourney",
+  description: "Your personal ChatGPT+Midjourney Chat Bot.",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "TimoChat-Midjourney",
+    title: "ChatGPT-Midjourney",
     statusBarStyle: "default",
   },
 };
